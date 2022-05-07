@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CDPlusPlus_Builder_Version_1.0.0>
+  <Top>
+    <components> managing_console@managing_console network2 &#xd;</components>
+    <out> serverstates noclients &#xd;</out>
+    <in> fault clients1 &#xd;</in>
+    <Link> fault fault@network2&#xd;</Link>
+    <Link> clients1 clients1@network2&#xd;</Link>
+    <Link> command3@managing_console command3@network2&#xd;</Link>
+    <Link> command1@managing_console command1@network2&#xd;</Link>
+    <Link> command2@managing_console command2@network2&#xd;</Link>
+    <Link> serverstates@managing_console serverstates&#xd;</Link>
+    <Link> noclients@managing_console noclients&#xd;</Link>
+    <Link> serverstate2@network2 serverstate2@managing_console&#xd;</Link>
+    <Link> noclients3@network2 noclients3@managing_console&#xd;</Link>
+    <Link> noclients2@network2 noclients2@managing_console&#xd;</Link>
+    <Link> serverstate1@network2 serverstate1@managing_console&#xd;</Link>
+    <Link> noclients1@network2 noclients1@managing_console&#xd;</Link>
+    <Link> serverstate3@network2 serverstate3@managing_console&#xd;</Link>
+  </Top>
+  <managing_console>
+    <preparation> 00:00:10:000&#xd;</preparation>
+  </managing_console>
+  <network2>
+    <components> server1@server1 server2@server2 server3@server3 &#xd;</components>
+    <out> noclients1 serverstate1 noclients2 serverstate2 noclients3 serverstate3 &#xd;</out>
+    <in> fault clients1 command1 command2 command3 &#xd;</in>
+    <Link> users31@server3 users31@server1&#xd;</Link>
+    <Link> users13@server1 users13@server3&#xd;</Link>
+    <Link> users12@server1 users12@server2&#xd;</Link>
+    <Link> users21@server2 users21@server1&#xd;</Link>
+    <Link> fault fault@server1&#xd;</Link>
+    <Link> clients1 clients1@server1&#xd;</Link>
+    <Link> command1 command1@server1&#xd;</Link>
+    <Link> command2 command2@server2&#xd;</Link>
+    <Link> command3 command3@server3&#xd;</Link>
+    <Link> noclients1@server1 noclients1&#xd;</Link>
+    <Link> serverstate1@server1 serverstate1&#xd;</Link>
+    <Link> noclients2@server2 noclients2&#xd;</Link>
+    <Link> serverstate2@server2 serverstate2&#xd;</Link>
+    <Link> noclients3@server3 noclients3&#xd;</Link>
+    <Link> serverstate3@server3 serverstate3&#xd;</Link>
+  </network2>
+  <server1>
+    <preparation> 00:00:10:000&#xd;</preparation>
+  </server1>
+  <server2>
+    <preparation> 00:00:10:000&#xd;</preparation>
+  </server2>
+  <server3>
+    <preparation> 00:00:10:000&#xd;</preparation>
+  </server3>
+</CDPlusPlus_Builder_Version_1.0.0>

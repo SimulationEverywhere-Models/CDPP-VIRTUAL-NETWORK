@@ -1,0 +1,20 @@
+clients on server1: 30
+00:00:00:005 noclients 30
+00:00:00:005 command2 21
+Server1: active
+00:00:00:005 serverstate 11
+clients on server1: 70
+00:00:00:015 noclients 70
+Server1: active
+00:00:00:015 serverstate 11
+clients on server1: 130
+00:00:00:025 noclients 130
+00:00:00:025 command1 12
+Server1: active
+00:00:00:025 serverstate 11
+clients on server1: 80
+00:00:00:035 noclients 80
+Server1: active
+00:00:00:035 serverstate 11
+Server1: active
+00:00:00:040 serverstate 11

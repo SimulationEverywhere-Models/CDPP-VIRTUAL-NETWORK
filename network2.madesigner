@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.example.org/DEVSModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <CoupledModelType xmi:id="_qLn6Q7AzEeag_78Dy6kCdw" defined="true" sourceFileRelativePath="network2.ma">
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6RLAzEeag_78Dy6kCdw" portName="noclients1" portType="OUTPUT_PORT" incomingLinks="_qLn6d7AzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6RbAzEeag_78Dy6kCdw" portName="serverstate1" portType="OUTPUT_PORT" incomingLinks="_qLn6eLAzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6RrAzEeag_78Dy6kCdw" portName="noclients3" portType="OUTPUT_PORT" incomingLinks="_qLn6ebAzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6R7AzEeag_78Dy6kCdw" portName="serverstate3" portType="OUTPUT_PORT" incomingLinks="_qLn6erAzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6SLAzEeag_78Dy6kCdw" portName="noclients2" portType="OUTPUT_PORT" incomingLinks="_qLn6e7AzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6SbAzEeag_78Dy6kCdw" portName="serverstate2" portType="OUTPUT_PORT" incomingLinks="_qLn6fLAzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6SrAzEeag_78Dy6kCdw" portName="clients1" outgoingLinks="_qLn6crAzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6S7AzEeag_78Dy6kCdw" portName="fault" outgoingLinks="_qLn6c7AzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6TLAzEeag_78Dy6kCdw" portName="command1" outgoingLinks="_qLn6dLAzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6TbAzEeag_78Dy6kCdw" portName="command3" outgoingLinks="_qLn6dbAzEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_qLn6TrAzEeag_78Dy6kCdw" portName="command2" outgoingLinks="_qLn6drAzEeag_78Dy6kCdw"/>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_qLn6T7AzEeag_78Dy6kCdw" instanceName="server1">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_qLn6ULAzEeag_78Dy6kCdw" modelName="server1" defined="true" sourceFileRelativePath="server1.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_qLn6UbAzEeag_78Dy6kCdw" portName="clients1" incomingLinks="_qLn6crAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_qLn6UrAzEeag_78Dy6kCdw" portName="fault" incomingLinks="_qLn6c7AzEeag_78Dy6kCdw"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_qLn6U7AzEeag_78Dy6kCdw" portName="command1" incomingLinks="_qLn6dLAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_qLn6VLAzEeag_78Dy6kCdw" portName="users21" incomingLinks="_qLn6b7AzEeag_78Dy6kCdw"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_qLn6VbAzEeag_78Dy6kCdw" portName="users31" incomingLinks="_qLn6brAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6VrAzEeag_78Dy6kCdw" portName="serverstate1" portType="OUTPUT_PORT" outgoingLinks="_qLn6eLAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6V7AzEeag_78Dy6kCdw" portName="noclients1" portType="OUTPUT_PORT" outgoingLinks="_qLn6d7AzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6WLAzEeag_78Dy6kCdw" portName="users12" portType="OUTPUT_PORT" outgoingLinks="_qLn6cLAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6WbAzEeag_78Dy6kCdw" portName="users13" portType="OUTPUT_PORT" outgoingLinks="_qLn6cbAzEeag_78Dy6kCdw"/>
+        <parameters xmi:type="AtomicModelTypeParameter" xmi:id="_qLn6WrAzEeag_78Dy6kCdw" name="preparation"/>
+      </modelType>
+      <parameters xmi:type="AtomicModelInstanceParameter" xmi:id="_qLn6W7AzEeag_78Dy6kCdw" name="preparation" value="00:00:10:000"/>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_qLn6XLAzEeag_78Dy6kCdw" instanceName="server2">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_qLn6XbAzEeag_78Dy6kCdw" modelName="server2" defined="true" sourceFileRelativePath="server2.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_qLn6XrAzEeag_78Dy6kCdw" portName="users12" incomingLinks="_qLn6cLAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_qLn6X7AzEeag_78Dy6kCdw" portName="command2" incomingLinks="_qLn6drAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6YLAzEeag_78Dy6kCdw" portName="users21" portType="OUTPUT_PORT" outgoingLinks="_qLn6b7AzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6YbAzEeag_78Dy6kCdw" portName="noclients2" portType="OUTPUT_PORT" outgoingLinks="_qLn6e7AzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6YrAzEeag_78Dy6kCdw" portName="serverstate2" portType="OUTPUT_PORT" outgoingLinks="_qLn6fLAzEeag_78Dy6kCdw"/>
+        <parameters xmi:type="AtomicModelTypeParameter" xmi:id="_qLn6Y7AzEeag_78Dy6kCdw" name="preparation"/>
+      </modelType>
+      <parameters xmi:type="AtomicModelInstanceParameter" xmi:id="_qLn6ZLAzEeag_78Dy6kCdw" name="preparation" value="00:00:10:000"/>
+    </atomicModels>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_qLn6ZbAzEeag_78Dy6kCdw" instanceName="server3">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_qLn6ZrAzEeag_78Dy6kCdw" modelName="server3" defined="true" sourceFileRelativePath="server3.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_qLn6Z7AzEeag_78Dy6kCdw" portName="users13" incomingLinks="_qLn6cbAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_qLn6aLAzEeag_78Dy6kCdw" portName="command3" incomingLinks="_qLn6dbAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6abAzEeag_78Dy6kCdw" portName="users31" portType="OUTPUT_PORT" outgoingLinks="_qLn6brAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6arAzEeag_78Dy6kCdw" portName="noclients3" portType="OUTPUT_PORT" outgoingLinks="_qLn6ebAzEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_qLn6a7AzEeag_78Dy6kCdw" portName="serverstate3" portType="OUTPUT_PORT" outgoingLinks="_qLn6erAzEeag_78Dy6kCdw"/>
+        <parameters xmi:type="AtomicModelTypeParameter" xmi:id="_qLn6bLAzEeag_78Dy6kCdw" name="preparation"/>
+      </modelType>
+      <parameters xmi:type="AtomicModelInstanceParameter" xmi:id="_qLn6bbAzEeag_78Dy6kCdw" name="preparation" value="00:00:10:000"/>
+    </atomicModels>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6brAzEeag_78Dy6kCdw" target="_qLn6VbAzEeag_78Dy6kCdw" source="_qLn6abAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6b7AzEeag_78Dy6kCdw" target="_qLn6VLAzEeag_78Dy6kCdw" source="_qLn6YLAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6cLAzEeag_78Dy6kCdw" target="_qLn6XrAzEeag_78Dy6kCdw" source="_qLn6WLAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6cbAzEeag_78Dy6kCdw" target="_qLn6Z7AzEeag_78Dy6kCdw" source="_qLn6WbAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6crAzEeag_78Dy6kCdw" target="_qLn6UbAzEeag_78Dy6kCdw" source="_qLn6SrAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6c7AzEeag_78Dy6kCdw" target="_qLn6UrAzEeag_78Dy6kCdw" source="_qLn6S7AzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6dLAzEeag_78Dy6kCdw" target="_qLn6U7AzEeag_78Dy6kCdw" source="_qLn6TLAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6dbAzEeag_78Dy6kCdw" target="_qLn6aLAzEeag_78Dy6kCdw" source="_qLn6TbAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6drAzEeag_78Dy6kCdw" target="_qLn6X7AzEeag_78Dy6kCdw" source="_qLn6TrAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6d7AzEeag_78Dy6kCdw" target="_qLn6RLAzEeag_78Dy6kCdw" source="_qLn6V7AzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6eLAzEeag_78Dy6kCdw" target="_qLn6RbAzEeag_78Dy6kCdw" source="_qLn6VrAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6ebAzEeag_78Dy6kCdw" target="_qLn6RrAzEeag_78Dy6kCdw" source="_qLn6arAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6erAzEeag_78Dy6kCdw" target="_qLn6R7AzEeag_78Dy6kCdw" source="_qLn6a7AzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6e7AzEeag_78Dy6kCdw" target="_qLn6SLAzEeag_78Dy6kCdw" source="_qLn6YbAzEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_qLn6fLAzEeag_78Dy6kCdw" target="_qLn6SbAzEeag_78Dy6kCdw" source="_qLn6YrAzEeag_78Dy6kCdw"/>
+  </CoupledModelType>
+  <notation:Diagram xmi:id="_qLn6fbAzEeag_78Dy6kCdw" type="DEVS" element="_qLn6Q7AzEeag_78Dy6kCdw" name="network2.madesigner" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_qLn6frAzEeag_78Dy6kCdw"/>
+  </notation:Diagram>
+</xmi:XMI>

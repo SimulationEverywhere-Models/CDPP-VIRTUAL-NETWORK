@@ -1,0 +1,15 @@
+int
+EXT
+00:00:00:005 noclients1 10
+00:00:00:005 serverstate1 1
+fault
+Server1:inactive
+00:00:00:010 serverstate1 0
+EXT
+00:00:00:025 users13 30
+fault
+Server1: active
+00:00:00:030 serverstate1 1
+EXT
+00:00:00:040 noclients1 46
+00:00:00:040 serverstate1 1

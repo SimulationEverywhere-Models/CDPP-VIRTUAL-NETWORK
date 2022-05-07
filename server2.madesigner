@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.example.org/DEVSModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <CoupledModelType xmi:id="_ZC_bAK3mEeag_78Dy6kCdw" defined="true" sourceFileRelativePath="server2.ma">
+    <ports xmi:type="CoupledPort" xmi:id="_ZC_bAa3mEeag_78Dy6kCdw" portName="serverstate2" portType="OUTPUT_PORT" incomingLinks="_ZC_bEa3mEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_ZC_bAq3mEeag_78Dy6kCdw" portName="noclients2" portType="OUTPUT_PORT" incomingLinks="_ZC_bEq3mEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_ZC_bA63mEeag_78Dy6kCdw" portName="users21" portType="OUTPUT_PORT" incomingLinks="_ZC_bE63mEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_ZC_bBK3mEeag_78Dy6kCdw" portName="command2" outgoingLinks="_ZC_bD63mEeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_ZC_bBa3mEeag_78Dy6kCdw" portName="users12" outgoingLinks="_ZC_bEK3mEeag_78Dy6kCdw"/>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_ZC_bBq3mEeag_78Dy6kCdw" instanceName="server2">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_ZC_bB63mEeag_78Dy6kCdw" modelName="server2" defined="true" sourceFileRelativePath="server2.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_ZC_bCK3mEeag_78Dy6kCdw" portName="users12" incomingLinks="_ZC_bEK3mEeag_78Dy6kCdw"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_ZC_bCa3mEeag_78Dy6kCdw" portName="command2" incomingLinks="_ZC_bD63mEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_ZC_bCq3mEeag_78Dy6kCdw" portName="users21" portType="OUTPUT_PORT" outgoingLinks="_ZC_bE63mEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_ZC_bC63mEeag_78Dy6kCdw" portName="noclients2" portType="OUTPUT_PORT" outgoingLinks="_ZC_bEq3mEeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_ZC_bDK3mEeag_78Dy6kCdw" portName="serverstate2" portType="OUTPUT_PORT" outgoingLinks="_ZC_bEa3mEeag_78Dy6kCdw"/>
+        <parameters xmi:type="AtomicModelTypeParameter" xmi:id="_ZC_bDa3mEeag_78Dy6kCdw" name="preparation"/>
+      </modelType>
+      <parameters xmi:type="AtomicModelInstanceParameter" xmi:id="_ZC_bDq3mEeag_78Dy6kCdw" name="preparation" value="00:00:10:000"/>
+    </atomicModels>
+    <links xmi:type="CoupledLink" xmi:id="_ZC_bD63mEeag_78Dy6kCdw" target="_ZC_bCa3mEeag_78Dy6kCdw" source="_ZC_bBK3mEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_ZC_bEK3mEeag_78Dy6kCdw" target="_ZC_bCK3mEeag_78Dy6kCdw" source="_ZC_bBa3mEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_ZC_bEa3mEeag_78Dy6kCdw" target="_ZC_bAa3mEeag_78Dy6kCdw" source="_ZC_bDK3mEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_ZC_bEq3mEeag_78Dy6kCdw" target="_ZC_bAq3mEeag_78Dy6kCdw" source="_ZC_bC63mEeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_ZC_bE63mEeag_78Dy6kCdw" target="_ZC_bA63mEeag_78Dy6kCdw" source="_ZC_bCq3mEeag_78Dy6kCdw"/>
+  </CoupledModelType>
+  <notation:Diagram xmi:id="_ZC_bFK3mEeag_78Dy6kCdw" type="DEVS" element="_ZC_bAK3mEeag_78Dy6kCdw" name="server2.madesigner" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_ZC_bFa3mEeag_78Dy6kCdw"/>
+  </notation:Diagram>
+</xmi:XMI>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns="http://www.example.org/DEVSModeler" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation">
+  <CoupledModelType xmi:id="_PNi94K38Eeag_78Dy6kCdw" defined="true" sourceFileRelativePath="server3.ma">
+    <ports xmi:type="CoupledPort" xmi:id="_PNi94a38Eeag_78Dy6kCdw" portName="noclients3" portType="OUTPUT_PORT" incomingLinks="_PNjk_K38Eeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_PNi94q38Eeag_78Dy6kCdw" portName="users31" portType="OUTPUT_PORT" incomingLinks="_PNjk_a38Eeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_PNi94638Eeag_78Dy6kCdw" portName="serverstate3" portType="OUTPUT_PORT" incomingLinks="_PNjk_q38Eeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_PNi95K38Eeag_78Dy6kCdw" portName="command3" outgoingLinks="_PNjk-q38Eeag_78Dy6kCdw"/>
+    <ports xmi:type="CoupledPort" xmi:id="_PNjk8K38Eeag_78Dy6kCdw" portName="users13" outgoingLinks="_PNjk-638Eeag_78Dy6kCdw"/>
+    <atomicModels xmi:type="AtomicModelInstance" xmi:id="_PNjk8a38Eeag_78Dy6kCdw" instanceName="server3">
+      <modelType xmi:type="CPPAtomicModelType" xmi:id="_PNjk8q38Eeag_78Dy6kCdw" modelName="server3" defined="true" sourceFileRelativePath="server3.cpp">
+        <ports xmi:type="InputAtomicPort" xmi:id="_PNjk8638Eeag_78Dy6kCdw" portName="users13" incomingLinks="_PNjk-638Eeag_78Dy6kCdw"/>
+        <ports xmi:type="InputAtomicPort" xmi:id="_PNjk9K38Eeag_78Dy6kCdw" portName="command3" incomingLinks="_PNjk-q38Eeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_PNjk9a38Eeag_78Dy6kCdw" portName="users31" portType="OUTPUT_PORT" outgoingLinks="_PNjk_a38Eeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_PNjk9q38Eeag_78Dy6kCdw" portName="noclients3" portType="OUTPUT_PORT" outgoingLinks="_PNjk_K38Eeag_78Dy6kCdw"/>
+        <ports xmi:type="OutputAtomicPort" xmi:id="_PNjk9638Eeag_78Dy6kCdw" portName="serverstate3" portType="OUTPUT_PORT" outgoingLinks="_PNjk_q38Eeag_78Dy6kCdw"/>
+        <parameters xmi:type="AtomicModelTypeParameter" xmi:id="_PNjk-K38Eeag_78Dy6kCdw" name="preparation"/>
+      </modelType>
+      <parameters xmi:type="AtomicModelInstanceParameter" xmi:id="_PNjk-a38Eeag_78Dy6kCdw" name="preparation" value="00:00:10:000"/>
+    </atomicModels>
+    <links xmi:type="CoupledLink" xmi:id="_PNjk-q38Eeag_78Dy6kCdw" target="_PNjk9K38Eeag_78Dy6kCdw" source="_PNi95K38Eeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_PNjk-638Eeag_78Dy6kCdw" target="_PNjk8638Eeag_78Dy6kCdw" source="_PNjk8K38Eeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_PNjk_K38Eeag_78Dy6kCdw" target="_PNi94a38Eeag_78Dy6kCdw" source="_PNjk9q38Eeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_PNjk_a38Eeag_78Dy6kCdw" target="_PNi94q38Eeag_78Dy6kCdw" source="_PNjk9a38Eeag_78Dy6kCdw"/>
+    <links xmi:type="CoupledLink" xmi:id="_PNjk_q38Eeag_78Dy6kCdw" target="_PNi94638Eeag_78Dy6kCdw" source="_PNjk9638Eeag_78Dy6kCdw"/>
+  </CoupledModelType>
+  <notation:Diagram xmi:id="_PNjk_638Eeag_78Dy6kCdw" type="DEVS" element="_PNi94K38Eeag_78Dy6kCdw" name="server3.madesigner" measurementUnit="Pixel">
+    <styles xmi:type="notation:DiagramStyle" xmi:id="_PNjlAK38Eeag_78Dy6kCdw"/>
+  </notation:Diagram>
+</xmi:XMI>

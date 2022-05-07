@@ -1,0 +1,66 @@
+int
+EXT
+clients on server1: 10
+Server1: active
+00:00:00:005 serverstates 11
+EXT
+clients on server1: 30
+Server1: active
+00:00:00:015 serverstates 11
+EXT
+clients on server1: 44
+Server1: active
+00:00:00:025 serverstates 11
+EXT
+clients on server1: 32
+Server1: active
+00:00:00:035 serverstates 11
+EXT
+clients on server1: 112
+Server1: active
+00:00:00:040 serverstates 11
+clients on server1: 100
+Server2: active
+clients on server2: 12
+00:00:00:040 serverstates 21
+00:00:00:040 noclients 12
+EXT
+clients on server1: 20
+Server1: active
+00:00:00:045 serverstates 11
+Server2: inactive
+clients on server1: 32
+Server1: active
+00:00:00:045 serverstates 20
+00:00:00:045 serverstates 11
+fault
+Server1:inactive
+Server1: inactive
+00:00:00:050 serverstates 10
+00:00:00:050 serverstates 31
+current_clients1=0
+Server3: active
+clients on server3: 32
+00:00:00:050 serverstates 31
+00:00:00:050 noclients 32
+EXT
+Server3: active
+clients on server3: 52
+00:00:00:055 serverstates 31
+00:00:00:055 noclients 52
+fault
+Server1: active
+Server1: active
+00:00:00:060 serverstates 11
+00:00:00:060 serverstates 30
+Server3: inactive
+Server3: active
+clients on server3: 0
+clients on server1: 52
+00:00:00:060 serverstates 30
+00:00:00:060 serverstates 31
+00:00:00:060 noclients 0
+EXT
+clients on server1: 68
+Server1: active
+00:00:00:065 serverstates 11
